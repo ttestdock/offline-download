@@ -19,7 +19,7 @@ class Downlist extends CI_Controller {
             $response[$i]['name'] = $map[$i];
             $response[$i]['size'] = substr(filesize($uri . $map[$i]) / 1024 / 1024,0,5) . " M";
             $response[$i]['mtime'] = date("Y-m-d H:i:s",filemtime($uri . $map[$i]));
- 
+            $response[$i]['md5'] = strtoupper(md5_file($uri . $map[$i]));
         }
         echo json_encode($response);
     }
