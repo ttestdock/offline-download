@@ -40,7 +40,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 <div class="am-container">
 	<div class="am-g">
 		<div class="am-u-md-10 am-u-sm-centered">
-				<legend>离线下载</legend>
+				<legend>大文件离线下载</legend>
 				<div class="am-form-group">
 					<p>欢迎使用！采用wget后台下载的方法实现简单的离线下载功能，wget更多使用方法请查看  <a href="http://www.gnu.org/software/wget/manual/wget.html"><strong>wget使用说明</strong></a></p>
 					<p>可下载墙外文件，文件永久保留，下载空间为512M，若空间不足，请手工删除，且用且珍惜！</p>
