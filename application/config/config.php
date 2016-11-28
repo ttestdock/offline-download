@@ -17,7 +17,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 | environments.
 |
 */
-$config['base_url'] = 'https://0fficed0wn.herokuapp.com/';
+$config['base_url'] = 'https://officed0wn.herokuapp.com/';
 
 /*
 |--------------------------------------------------------------------------
